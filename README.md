@@ -9,3 +9,7 @@ The AlertDialog also has two buttons to open the URL in the browser and to share
 Screen
 =========
 <img src="http://s9.postimg.org/jqx5mr9sv/rss_1.png" alt="screen1" /><img src="http://s9.postimg.org/sagjkii5b/rss_2.png" alt="screen2" />
+
+Download Seample apk
+=========
+<a href="http://www.mediafire.com/download/qxu7estwxpnh321/RSSReader.apk">Download</a>
