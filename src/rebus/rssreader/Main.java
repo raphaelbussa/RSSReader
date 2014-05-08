@@ -24,6 +24,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class Main extends Activity {
 
@@ -90,6 +91,7 @@ public class Main extends Activity {
 
 			} catch (Exception e) {
 				Log.e("error", "parsing");
+				
 			}
 			return null;
 		}
@@ -97,6 +99,13 @@ public class Main extends Activity {
 		@Override
 		protected void onPostExecute(String result) {
 			loading.dismiss();
+			if (title.size() == 0) {
+				Toast toast = Toast.makeText(Main.this,
+    					getResources().getText(R.string.error),
+    			    	Toast.LENGTH_LONG);
+    			    	toast.show();
+				finish();
+			}
 			String[] list_title = title.toArray(new String[title.size()]);
 			ArrayAdapter<String> adapter = new ArrayAdapter<String>(Main.this, android.R.layout.simple_list_item_1, list_title);
 			list.setAdapter(adapter);
