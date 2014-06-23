@@ -12,4 +12,4 @@ Screen
 
 Download Seample apk
 =========
-<a href="http://www.mediafire.com/download/qxu7estwxpnh321/RSSReader.apk">Download</a>
+<a href="https://github.com/rebus007/RSSReader/releases"><img src="http://s21.postimg.org/i5olaw86v/git_Hub_download_button.png" alt="download" /></a>
