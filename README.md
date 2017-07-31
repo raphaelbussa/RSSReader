@@ -10,7 +10,7 @@ Screen
 =========
 <img src="http://s9.postimg.org/jqx5mr9sv/rss_1.png" alt="screen1" /><img src="http://s9.postimg.org/sagjkii5b/rss_2.png" alt="screen2" />
 
-Download Seample apk
+Download Sample apk
 =========
 <a href="https://github.com/rebus007/RSSReader/releases"><img src="http://s21.postimg.org/i5olaw86v/git_Hub_download_button.png" alt="download" /></a>
 
